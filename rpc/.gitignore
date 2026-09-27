@@ -1,0 +1,6 @@
+# CMake 构建目录（含 protoc 生成的 message.pb.{h,cc} 和可执行文件）
+build/
+
+# 万一直接在源码目录跑 protoc 也会产生这两个文件
+message.pb.cc
+message.pb.h

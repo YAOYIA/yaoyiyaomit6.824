@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+//请求数据包
+message EchoRequest {
+    string message = 1;
+}
+
+//响应数据包
+message EchoResponse {
+    string reply = 1;
+}
